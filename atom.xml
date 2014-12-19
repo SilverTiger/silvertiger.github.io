@@ -4,7 +4,7 @@
   <title><![CDATA[SilverTiger Development]]></title>
   <link href="http://silvertiger.github.io/atom.xml" rel="self"/>
   <link href="http://silvertiger.github.io/"/>
-  <updated>2014-12-06T14:40:30+01:00</updated>
+  <updated>2014-12-19T11:44:35+01:00</updated>
   <id>http://silvertiger.github.io/</id>
   <author>
     <name><![CDATA[Heiko Brumme]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Introduction to the LWJGL3 Tutorial]]></title>
+    <link href="http://silvertiger.github.io/blog/2014/12/19/introduction-to-the-lwjgl3-tutorial/"/>
+    <updated>2014-12-19T10:55:30+01:00</updated>
+    <id>http://silvertiger.github.io/blog/2014/12/19/introduction-to-the-lwjgl3-tutorial</id>
+    <content type="html"><![CDATA[<p>Finally the first part of the Lightweight Java Game Library 3 Tutorial is done! You can access it <a href="https://github.com/SilverTiger/lwjgl3-tutorial/wiki/Introduction">here</a>.<br/>
+In this part you get a quick overview about the creation of a simple application including how to setup your IDE.</p>
+
+<p>The Introduction will cover the following parts:</p>
+
+<ul>
+<li>Setting up LWJGL3</li>
+<li>Initializing GLFW3 and callbacks</li>
+<li>Creating OpenGL context</li>
+<li>A simple update and rendering loop</li>
+<li>Ending an application</li>
+</ul>
+
+
+<p>Feel free to comment the tutorial or write me a message for feedback.</p>
+
+<p>For the next tutorial I plan to write about game loops.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Welcome to My Blog!]]></title>
