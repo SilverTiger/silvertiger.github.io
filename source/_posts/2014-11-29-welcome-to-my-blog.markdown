@@ -13,7 +13,7 @@ When you hear OpenGL and Java you will probably also hear about these two librar
 * [JOGL](http://jogamp.org/jogl/www/) is a part of JogAmp, which provides you with bindings to OpenGL, OpenCL, OpenAL and OpenMAX.
 * [LWJGL](http://www.lwjgl.org/) stands for Lightweight Java Game Library and provides you also with bindings to OpenGL, OpenCL and OpenAL.
 
-So it is up to you which to use, they are both great librarys for high-performant computer graphics programming with Java. Personally I use the LWJGL for graphics programming.
+So it is up to you which to use, they are both great libraries for high-performant computer graphics programming with Java. Personally I use the LWJGL for graphics programming.
 
 ## About me
 I'm a computer science student from Germany and in a few weeks I will start my bachelor's thesis about computer graphics.  
