@@ -4,7 +4,7 @@
   <title><![CDATA[SilverTiger Development]]></title>
   <link href="http://silvertiger.github.io/atom.xml" rel="self"/>
   <link href="http://silvertiger.github.io/"/>
-  <updated>2014-12-19T11:44:35+01:00</updated>
+  <updated>2014-12-23T23:38:30+01:00</updated>
   <id>http://silvertiger.github.io/</id>
   <author>
     <name><![CDATA[Heiko Brumme]]></name>
@@ -54,7 +54,7 @@ When you hear OpenGL and Java you will probably also hear about these two librar
 </ul>
 
 
-<p>So it is up to you which to use, they are both great librarys for high-performant computer graphics programming with Java. Personally I use the LWJGL for graphics programming.</p>
+<p>So it is up to you which to use, they are both great libraries for high-performant computer graphics programming with Java. Personally I use the LWJGL for graphics programming.</p>
 
 <h2>About me</h2>
 
