@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://silvertiger.github.io/blog/2014/12/29/game-loop-tutorial-for-lwjgl3/</loc>
+    <lastmod>2014-12-29T17:48:32+01:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://silvertiger.github.io/blog/2014/12/19/introduction-to-the-lwjgl3-tutorial/</loc>
     <lastmod>2014-12-19T10:55:30+01:00</lastmod>
     <priority>0.8</priority>
@@ -12,13 +17,13 @@
   </url>
   <url>
     <loc>http://silvertiger.github.io/blog/archives/</loc>
-    <lastmod>2014-12-29T13:16:41+01:00</lastmod>
+    <lastmod>2014-12-29T18:04:24+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://silvertiger.github.io/</loc>
-    <lastmod>2014-12-29T13:16:41+01:00</lastmod>
+    <lastmod>2014-12-29T18:04:24+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

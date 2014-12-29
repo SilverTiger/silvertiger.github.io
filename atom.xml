@@ -4,7 +4,7 @@
   <title><![CDATA[SilverTiger Development]]></title>
   <link href="http://silvertiger.github.io/atom.xml" rel="self"/>
   <link href="http://silvertiger.github.io/"/>
-  <updated>2014-12-29T13:16:41+01:00</updated>
+  <updated>2014-12-29T18:04:24+01:00</updated>
   <id>http://silvertiger.github.io/</id>
   <author>
     <name><![CDATA[Heiko Brumme]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Game Loop Tutorial for LWJGL3]]></title>
+    <link href="http://silvertiger.github.io/blog/2014/12/29/game-loop-tutorial-for-lwjgl3/"/>
+    <updated>2014-12-29T17:48:32+01:00</updated>
+    <id>http://silvertiger.github.io/blog/2014/12/29/game-loop-tutorial-for-lwjgl3</id>
+    <content type="html"><![CDATA[<p>The next part of the LWJGL3 Tutorial is done. This time it is about <a href="https://github.com/SilverTiger/lwjgl3-tutorial/wiki/Game-loops">game loops</a> and contains a sub part for timing calculations.</p>
+
+<p>The game loop tutorial as well as the timing sub tutorial will cover the following parts:</p>
+
+<ul>
+<li>Variable timestep loop</li>
+<li>Fixed timestep loop</li>
+<li>Getting the system time</li>
+<li>Calculating delta time</li>
+<li>FPS and UPS calculation</li>
+</ul>
+
+
+<p>The next part of the tutorial will be about rendering with shaders.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Introduction to the LWJGL3 Tutorial]]></title>
