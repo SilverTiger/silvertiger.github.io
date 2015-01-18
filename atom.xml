@@ -4,7 +4,7 @@
   <title><![CDATA[SilverTiger Development]]></title>
   <link href="http://silvertiger.github.io/atom.xml" rel="self"/>
   <link href="http://silvertiger.github.io/"/>
-  <updated>2014-12-29T18:04:24+01:00</updated>
+  <updated>2015-01-18T23:45:36+01:00</updated>
   <id>http://silvertiger.github.io/</id>
   <author>
     <name><![CDATA[Heiko Brumme]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[New Tutorial for LWJGL3 Available: Rendering With Shaders]]></title>
+    <link href="http://silvertiger.github.io/blog/2015/01/18/new-tutorial-for-lwjgl3-available-rendering-with-shaders/"/>
+    <updated>2015-01-18T23:25:57+01:00</updated>
+    <id>http://silvertiger.github.io/blog/2015/01/18/new-tutorial-for-lwjgl3-available-rendering-with-shaders</id>
+    <content type="html"><![CDATA[<p>It has been some time but a new part of my tutorial series is done! The new part of the tutorial is about <a href="https://github.com/SilverTiger/lwjgl3-tutorial/wiki/Rendering">rendering with shaders</a>!<br/>
+For that tutorial OpenGL 3.2 core profile was used, but for the older computers there is also described how to do the rendering with OpenGL 2.1.</p>
+
+<p>Like always the following list will show you what the tutorial contains.</p>
+
+<ul>
+<li>Creating an OpenGL context</li>
+<li>Vertex Array Objects</li>
+<li>Vertex Buffer Objects</li>
+<li>Shaders
+
+<ul>
+<li>Vertex shaders</li>
+<li>Fragment shaders</li>
+</ul>
+</li>
+<li>Shader Programs</li>
+<li>Rendering
+
+<ul>
+<li>Interpolation</li>
+</ul>
+</li>
+</ul>
+
+
+<p>That&rsquo;s all for this tutorial, in the next part we will take a look into textures and how to use them for text rendering.<br/>
+Until then stay tuned and happy rendering!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Game Loop Tutorial for LWJGL3]]></title>

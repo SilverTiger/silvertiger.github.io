@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Game Loop Tutorial for LWJGL3 - SilverTiger Development</title>
+  <title>New Tutorial for LWJGL3 Available: Rendering With Shaders - SilverTiger Development</title>
   <meta name="author" content="Heiko Brumme">
 
   
-  <meta name="description" content="The next part of the LWJGL3 Tutorial is done. This time it is about game loops and contains a sub part for timing calculations. The game loop &hellip;">
+  <meta name="description" content="It has been some time but a new part of my tutorial series is done! The new part of the tutorial is about rendering with shaders!
+For that tutorial &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://silvertiger.github.io/blog/2014/12/29/game-loop-tutorial-for-lwjgl3">
+  <link rel="canonical" href="http://silvertiger.github.io/blog/2015/01/18/new-tutorial-for-lwjgl3-available-rendering-with-shaders">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="SilverTiger Development" type="application/atom+xml">
@@ -68,7 +69,7 @@
   
   <header>
     
-      <h1 class="entry-title">Game Loop Tutorial for LWJGL3</h1>
+      <h1 class="entry-title">New Tutorial for LWJGL3 Available: Rendering With Shaders</h1>
     
     
       <p class="meta">
@@ -77,7 +78,7 @@
 
 
 
-<time class='entry-date' datetime='2014-12-29T17:48:32+01:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>29</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>5:48 pm</span></time>
+<time class='entry-date' datetime='2015-01-18T23:25:57+01:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>18</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:25 pm</span></time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://silvertiger.github.io">Comments</a>
@@ -87,20 +88,34 @@
   </header>
 
 
-<div class="entry-content"><p>The next part of the LWJGL3 Tutorial is done. This time it is about <a href="https://github.com/SilverTiger/lwjgl3-tutorial/wiki/Game-loops">game loops</a> and contains a sub part for timing calculations.</p>
+<div class="entry-content"><p>It has been some time but a new part of my tutorial series is done! The new part of the tutorial is about <a href="https://github.com/SilverTiger/lwjgl3-tutorial/wiki/Rendering">rendering with shaders</a>!<br/>
+For that tutorial OpenGL 3.2 core profile was used, but for the older computers there is also described how to do the rendering with OpenGL 2.1.</p>
 
-<p>The game loop tutorial as well as the timing sub tutorial will cover the following parts:</p>
+<p>Like always the following list will show you what the tutorial contains.</p>
 
 <ul>
-<li>Variable timestep loop</li>
-<li>Fixed timestep loop</li>
-<li>Getting the system time</li>
-<li>Calculating delta time</li>
-<li>FPS and UPS calculation</li>
+<li>Creating an OpenGL context</li>
+<li>Vertex Array Objects</li>
+<li>Vertex Buffer Objects</li>
+<li>Shaders
+
+<ul>
+<li>Vertex shaders</li>
+<li>Fragment shaders</li>
+</ul>
+</li>
+<li>Shader Programs</li>
+<li>Rendering
+
+<ul>
+<li>Interpolation</li>
+</ul>
+</li>
 </ul>
 
 
-<p>The next part of the tutorial will be about rendering with shaders.</p>
+<p>That&rsquo;s all for this tutorial, in the next part we will take a look into textures and how to use them for text rendering.<br/>
+Until then stay tuned and happy rendering!</p>
 </div>
 
 
@@ -116,7 +131,7 @@
 
 
 
-<time class='entry-date' datetime='2014-12-29T17:48:32+01:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>29</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>5:48 pm</span></time>
+<time class='entry-date' datetime='2015-01-18T23:25:57+01:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>18</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:25 pm</span></time>
       
 
 <span class="categories">
@@ -137,10 +152,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/12/19/introduction-to-the-lwjgl3-tutorial/" title="Previous Post: Introduction to the LWJGL3 Tutorial">&laquo; Introduction to the LWJGL3 Tutorial</a>
+        <a class="basic-alignment left" href="/blog/2014/12/29/game-loop-tutorial-for-lwjgl3/" title="Previous Post: Game loop tutorial for LWJGL3">&laquo; Game loop tutorial for LWJGL3</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2015/01/18/new-tutorial-for-lwjgl3-available-rendering-with-shaders/" title="Next Post: New tutorial for LWJGL3 available: Rendering with shaders">New tutorial for LWJGL3 available: Rendering with shaders &raquo;</a>
       
     </p>
   </footer>
@@ -231,8 +244,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://silvertiger.github.io/blog/2014/12/29/game-loop-tutorial-for-lwjgl3/';
-        var disqus_url = 'http://silvertiger.github.io/blog/2014/12/29/game-loop-tutorial-for-lwjgl3/';
+        var disqus_identifier = 'http://silvertiger.github.io/blog/2015/01/18/new-tutorial-for-lwjgl3-available-rendering-with-shaders/';
+        var disqus_url = 'http://silvertiger.github.io/blog/2015/01/18/new-tutorial-for-lwjgl3-available-rendering-with-shaders/';
         var disqus_script = 'embed.js';
       
     (function () {
