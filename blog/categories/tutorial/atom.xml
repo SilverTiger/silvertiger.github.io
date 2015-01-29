@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tutorial | SilverTiger Development]]></title>
   <link href="http://silvertiger.github.io/blog/categories/tutorial/atom.xml" rel="self"/>
   <link href="http://silvertiger.github.io/"/>
-  <updated>2015-01-23T14:55:06+01:00</updated>
+  <updated>2015-01-29T12:47:14+01:00</updated>
   <id>http://silvertiger.github.io/</id>
   <author>
     <name><![CDATA[Heiko Brumme]]></name>
@@ -12,6 +12,50 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Textures and Fonts Tutorial for LWJGL3 Is Available]]></title>
+    <link href="http://silvertiger.github.io/blog/2015/01/29/textures-and-fonts-tutorial-for-lwjgl3-is-available/"/>
+    <updated>2015-01-29T12:30:56+01:00</updated>
+    <id>http://silvertiger.github.io/blog/2015/01/29/textures-and-fonts-tutorial-for-lwjgl3-is-available</id>
+    <content type="html"><![CDATA[<p>Another new tutorials is finally available at GitHub! In this part we look into <a href="https://github.com/SilverTiger/lwjgl3-tutorial/wiki/Textures">using textures with shaders</a>.<br/>
+In an sub-part of the tutorial it is explained how to use textures to do <a href="https://github.com/SilverTiger/lwjgl3-tutorial/wiki/Fonts">font rendering</a> in OpenGL!</p>
+
+<p>Now a quick overview what to learn in the new tutorials:</p>
+
+<h3>Texture tutorial</h3>
+
+<ul>
+<li>Creating textures
+
+<ul>
+<li>Wrapping</li>
+<li>Filtering</li>
+<li>Uploading the pixel data to the GPU</li>
+</ul>
+</li>
+<li>Using the texture in shaders</li>
+</ul>
+
+
+<h3>Font tutorial</h3>
+
+<ul>
+<li>Creating a texture atlas
+
+<ul>
+<li>Loading TrueType Fonts</li>
+<li>Determine width and height for the texture</li>
+<li>Generating the texture and draw font glyphs on it</li>
+</ul>
+</li>
+<li>Rendering the text</li>
+</ul>
+
+
+<p>That font rendering part is already using batch rendering, so the next tutorial will be about how to create a batch!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[New Tutorial for LWJGL3 Available: Rendering With Shaders]]></title>
