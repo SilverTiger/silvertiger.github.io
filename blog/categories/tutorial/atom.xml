@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tutorial | SilverTiger Development]]></title>
   <link href="http://silvertiger.github.io/blog/categories/tutorial/atom.xml" rel="self"/>
   <link href="http://silvertiger.github.io/"/>
-  <updated>2015-01-29T12:47:14+01:00</updated>
+  <updated>2015-02-04T11:20:17+01:00</updated>
   <id>http://silvertiger.github.io/</id>
   <author>
     <name><![CDATA[Heiko Brumme]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LWJGL3 Tutorial - Batch Rendering]]></title>
+    <link href="http://silvertiger.github.io/blog/2015/02/04/lwjgl3-tutorial-batch-rendering/"/>
+    <updated>2015-02-04T10:53:57+01:00</updated>
+    <id>http://silvertiger.github.io/blog/2015/02/04/lwjgl3-tutorial-batch-rendering</id>
+    <content type="html"><![CDATA[<p>The next part of the LWJGL3 Tutorial is out! In this part we are looking into <a href="https://github.com/SilverTiger/lwjgl3-tutorial/wiki/Batching">batch rendering</a>.<br/>
+With batch rendering you can dynamically fill your buffer, but most important you will have less state changes, so you get more performance out of it. Batching is great, even if you want to use legacy OpenGL with immediate mode.</p>
+
+<p>The tutorial isn&rsquo;t as long as the last parts, so here&rsquo;s the list what it contains:</p>
+
+<ul>
+<li>Initializing a batch
+
+<ul>
+<li>Different usage hints for buffers</li>
+</ul>
+</li>
+<li>Filling and drawing with a batch
+
+<ul>
+<li>Buffer mapping</li>
+</ul>
+</li>
+</ul>
+
+
+<p>Feel free to comment if there are issues or something.<br/>
+In the next part we will take a look into input handling!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Textures and Fonts Tutorial for LWJGL3 Is Available]]></title>

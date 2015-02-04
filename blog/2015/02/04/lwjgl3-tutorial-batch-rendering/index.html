@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: Tutorial - SilverTiger Development</title>
+  <title>LWJGL3 Tutorial - Batch Rendering - SilverTiger Development</title>
   <meta name="author" content="Heiko Brumme">
 
   
-  <meta name="description" content="Category: tutorial">
+  <meta name="description" content="The next part of the LWJGL3 Tutorial is out! In this part we are looking into batch rendering.
+With batch rendering you can dynamically fill your &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://silvertiger.github.io/blog/categories/tutorial">
+  <link rel="canonical" href="http://silvertiger.github.io/blog/2015/02/04/lwjgl3-tutorial-batch-rendering">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="SilverTiger Development" type="application/atom+xml">
@@ -64,95 +65,100 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: Tutorial</h1>
+    
+      <h1 class="entry-title">LWJGL3 Tutorial - Batch Rendering</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-02-04T10:53:57+01:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>4</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>10:53 am</span></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://silvertiger.github.io">Comments</a>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>The next part of the LWJGL3 Tutorial is out! In this part we are looking into <a href="https://github.com/SilverTiger/lwjgl3-tutorial/wiki/Batching">batch rendering</a>.<br/>
+With batch rendering you can dynamically fill your buffer, but most important you will have less state changes, so you get more performance out of it. Batching is great, even if you want to use legacy OpenGL with immediate mode.</p>
 
-  
-  <h2>2015</h2>
+<p>The tutorial isn&rsquo;t as long as the last parts, so here&rsquo;s the list what it contains:</p>
 
-<article>
-  
-<h1><a href="/blog/2015/02/04/lwjgl3-tutorial-batch-rendering/">LWJGL3 Tutorial - Batch Rendering</a></h1>
-<time datetime="2015-02-04T10:53:57+01:00" pubdate><span class='month'>Feb</span> <span class='day'>04</span> <span class='year'>2015</span></time>
+<ul>
+<li>Initializing a batch
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/lwjgl/'>lwjgl</a>, <a class='category' href='/blog/categories/tutorial/'>tutorial</a></span>
-</footer>
+<ul>
+<li>Different usage hints for buffers</li>
+</ul>
+</li>
+<li>Filling and drawing with a batch
 
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2015/01/29/textures-and-fonts-tutorial-for-lwjgl3-is-available/">Textures and Fonts Tutorial for LWJGL3 Is Available</a></h1>
-<time datetime="2015-01-29T12:30:56+01:00" pubdate><span class='month'>Jan</span> <span class='day'>29</span> <span class='year'>2015</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/lwjgl/'>lwjgl</a>, <a class='category' href='/blog/categories/tutorial/'>tutorial</a></span>
-</footer>
+<ul>
+<li>Buffer mapping</li>
+</ul>
+</li>
+</ul>
 
 
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2015/01/18/new-tutorial-for-lwjgl3-available-rendering-with-shaders/">New Tutorial for LWJGL3 Available: Rendering With Shaders</a></h1>
-<time datetime="2015-01-18T23:25:57+01:00" pubdate><span class='month'>Jan</span> <span class='day'>18</span> <span class='year'>2015</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/lwjgl/'>lwjgl</a>, <a class='category' href='/blog/categories/tutorial/'>tutorial</a></span>
-</footer>
-
-
-</article>
-
-
-
-  
-  <h2>2014</h2>
-
-<article>
-  
-<h1><a href="/blog/2014/12/29/game-loop-tutorial-for-lwjgl3/">Game Loop Tutorial for LWJGL3</a></h1>
-<time datetime="2014-12-29T17:48:32+01:00" pubdate><span class='month'>Dec</span> <span class='day'>29</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/lwjgl/'>lwjgl</a>, <a class='category' href='/blog/categories/tutorial/'>tutorial</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/12/19/introduction-to-the-lwjgl3-tutorial/">Introduction to the LWJGL3 Tutorial</a></h1>
-<time datetime="2014-12-19T10:55:30+01:00" pubdate><span class='month'>Dec</span> <span class='day'>19</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/lwjgl/'>lwjgl</a>, <a class='category' href='/blog/categories/tutorial/'>tutorial</a></span>
-</footer>
-
-
-</article>
-
+<p>Feel free to comment if there are issues or something.<br/>
+In the next part we will take a look into input handling!</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Heiko Brumme</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2015-02-04T10:53:57+01:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>4</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>10:53 am</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/lwjgl/'>lwjgl</a>, <a class='category' href='/blog/categories/tutorial/'>tutorial</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/01/29/textures-and-fonts-tutorial-for-lwjgl3-is-available/" title="Previous Post: Textures and Fonts tutorial for LWJGL3 is available">&laquo; Textures and Fonts tutorial for LWJGL3 is available</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -236,7 +242,10 @@
       var disqus_shortname = 'silvertiger-dev-blog';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://silvertiger.github.io/blog/2015/02/04/lwjgl3-tutorial-batch-rendering/';
+        var disqus_url = 'http://silvertiger.github.io/blog/2015/02/04/lwjgl3-tutorial-batch-rendering/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
