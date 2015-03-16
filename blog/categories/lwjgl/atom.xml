@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Lwjgl | SilverTiger Development]]></title>
   <link href="http://silvertiger.github.io/blog/categories/lwjgl/atom.xml" rel="self"/>
   <link href="http://silvertiger.github.io/"/>
-  <updated>2015-03-06T22:26:31+01:00</updated>
+  <updated>2015-03-16T17:06:57+01:00</updated>
   <id>http://silvertiger.github.io/</id>
   <author>
     <name><![CDATA[Heiko Brumme]]></name>
@@ -12,6 +12,53 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Handling Input With LWJGL3]]></title>
+    <link href="http://silvertiger.github.io/blog/2015/03/16/handling-input-with-lwjgl3/"/>
+    <updated>2015-03-16T16:41:22+01:00</updated>
+    <id>http://silvertiger.github.io/blog/2015/03/16/handling-input-with-lwjgl3</id>
+    <content type="html"><![CDATA[<p>A new part of my LWJGL3 tutorial is done! It is long overdue because I had not much free time because of my thesis.<br/>
+But here comes the part for <a href="https://github.com/SilverTiger/lwjgl3-tutorial/wiki/Input">handling input</a>!</p>
+
+<p>In this part you will see the following contents:</p>
+
+<ul>
+<li>Processing events</li>
+<li>Keyboard input
+
+<ul>
+<li>Key input</li>
+<li>Text input</li>
+<li>Clipboard input and output</li>
+</ul>
+</li>
+<li>Mouse input
+
+<ul>
+<li>Cursor modes</li>
+<li>Button input</li>
+<li>Cursor position</li>
+<li>Cursor enter and leave events</li>
+<li>Scroll input</li>
+<li>Path dropping</li>
+<li>Cursor objects</li>
+</ul>
+</li>
+<li>Controller input
+
+<ul>
+<li>Button states</li>
+<li>Axis states</li>
+<li>Controlle name</li>
+</ul>
+</li>
+</ul>
+
+
+<p>The next part will presumably be the last one, and it will be about game logic like creating a simple AI and collision detection.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LWJGL3 Tutorial - Batch Rendering]]></title>
@@ -143,31 +190,6 @@ Until then stay tuned and happy rendering!</p>
 
 
 <p>The next part of the tutorial will be about rendering with shaders.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Introduction to the LWJGL3 Tutorial]]></title>
-    <link href="http://silvertiger.github.io/blog/2014/12/19/introduction-to-the-lwjgl3-tutorial/"/>
-    <updated>2014-12-19T10:55:30+01:00</updated>
-    <id>http://silvertiger.github.io/blog/2014/12/19/introduction-to-the-lwjgl3-tutorial</id>
-    <content type="html"><![CDATA[<p>Finally the first part of the Lightweight Java Game Library 3 Tutorial is done! You can access it <a href="https://github.com/SilverTiger/lwjgl3-tutorial/wiki/Introduction">here</a>.<br/>
-In this part you get a quick overview about the creation of a simple application including how to setup your IDE.</p>
-
-<p>The Introduction will cover the following parts:</p>
-
-<ul>
-<li>Setting up LWJGL3</li>
-<li>Initializing GLFW3 and callbacks</li>
-<li>Creating OpenGL context</li>
-<li>A simple update and rendering loop</li>
-<li>Ending an application</li>
-</ul>
-
-
-<p>Feel free to comment the tutorial or write me a message for feedback.</p>
-
-<p>For the next tutorial I plan to write about game loops.</p>
 ]]></content>
   </entry>
   
