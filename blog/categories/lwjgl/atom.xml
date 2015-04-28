@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Lwjgl | SilverTiger Development]]></title>
   <link href="http://silvertiger.github.io/blog/categories/lwjgl/atom.xml" rel="self"/>
   <link href="http://silvertiger.github.io/"/>
-  <updated>2015-03-16T22:37:14+01:00</updated>
+  <updated>2015-04-28T10:55:01+02:00</updated>
   <id>http://silvertiger.github.io/</id>
   <author>
     <name><![CDATA[Heiko Brumme]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LWJGL 3.0.0a Released!]]></title>
+    <link href="http://silvertiger.github.io/blog/2015/04/28/lwjgl-3-0-0a-released/"/>
+    <updated>2015-04-28T10:39:17+02:00</updated>
+    <id>http://silvertiger.github.io/blog/2015/04/28/lwjgl-3-0-0a-released</id>
+    <content type="html"><![CDATA[<p>Finally the first official release of the Lightweight Java Game Library is done, with Version 3.0.0a there where a few changes.</p>
+
+<p>One of the important changes are the type postfixes of some functions, it will break some older code, but it can be easily fixed.</p>
+
+<p>So what comes next? It seems like LWJGL3 is going to get support for Gradle and a binding to AMD&rsquo;s Mantle, so that you can practice for the upcoming Vulkan API of Khronos because it is based on Mantle.</p>
+
+<p>For more information on this release have a look at the <a href="http://blog.lwjgl.org/lwjgl-3-0a-released/">official blog post</a>.<br/>
+You can get the release version in the <a href="http://www.lwjgl.org/download">download section of lwjgl.org</a> or <a href="http://build.lwjgl.org/release/3.0.0a/lwjgl-3.0.0a.zip">directly by clicking here</a>.</p>
+
+<p>In the next few days I will update the tutorial for LWJGL3 and will upload the last part of it.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Handling Input With LWJGL3]]></title>
@@ -168,28 +186,6 @@ For that tutorial OpenGL 3.2 core profile was used, but for the older computers 
 
 <p>That&rsquo;s all for this tutorial, in the next part we will take a look into textures and how to use them for text rendering.<br/>
 Until then stay tuned and happy rendering!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Game Loop Tutorial for LWJGL3]]></title>
-    <link href="http://silvertiger.github.io/blog/2014/12/29/game-loop-tutorial-for-lwjgl3/"/>
-    <updated>2014-12-29T17:48:32+01:00</updated>
-    <id>http://silvertiger.github.io/blog/2014/12/29/game-loop-tutorial-for-lwjgl3</id>
-    <content type="html"><![CDATA[<p>The next part of the LWJGL3 Tutorial is done. This time it is about <a href="https://github.com/SilverTiger/lwjgl3-tutorial/wiki/Game-loops">game loops</a> and contains a sub part for timing calculations.</p>
-
-<p>The game loop tutorial as well as the timing sub tutorial will cover the following parts:</p>
-
-<ul>
-<li>Variable timestep loop</li>
-<li>Fixed timestep loop</li>
-<li>Getting the system time</li>
-<li>Calculating delta time</li>
-<li>FPS and UPS calculation</li>
-</ul>
-
-
-<p>The next part of the tutorial will be about rendering with shaders.</p>
 ]]></content>
   </entry>
   
